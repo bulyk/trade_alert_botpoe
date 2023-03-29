@@ -10,3 +10,5 @@ How it works and how to install?:
 3.In the next window that opens, specify the path to the client.txt file (Example: D:\Games\poe\logs\Client.txt)
 
 4.To close the program, find it in the tray and click "Exit".
+
+This program parses the game log file as soon as a message appears with the presence of "@From" it is sent to you in Telegram
