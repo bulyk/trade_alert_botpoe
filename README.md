@@ -1,5 +1,6 @@
 # trade_alert_botpoe
-Пока работает для одного пользователя тоесть пока ктото используе вы не можете использовать бота(надо добавлять взаимодействие с базами данных)
+Пока работает для одного пользователя тоесть пока ктото используе вы не можете использовать бота. Пока можно запускать файл trade_alert_botpoe.py создавать своего бота через ботфазер, добавляете токен бота в соответствующей строке и пользуетесь
+
 This program allows you to duplicate messages received from the Path of Exile game in the Telegram chat, this will let you always know when someone wants to buy something from you. If you do not have access to a computer, then you can always use remote access programs: remotedesktop.google, TeamViewer, etc.
 
 How it works and how to install?:
