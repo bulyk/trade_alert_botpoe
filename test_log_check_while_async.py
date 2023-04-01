@@ -79,7 +79,7 @@ def show_message():
     chatid_txt.close()
 
 try:
-    chatid_txt = open('chatid.txt', 'r')
+    chatid_txt = open('chatid.txt', 'r', encoding='utf-8')
     text1 = chatid_txt.readlines()[0]
     chatid_txt.close() 
     print(text1)
