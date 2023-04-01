@@ -24,7 +24,7 @@ async def send_welcome(): # получаем от пользователя со�
     while a == 1:
         global file_path
         # 'D:\Games\poe\logs\Client.txt'
-        file = open(file_path, 'r')
+        file = open(file_path, 'r', encoding='utf-8')
         last_line = file.readlines()[-1]
         time.sleep(.1)
         file.close() 
