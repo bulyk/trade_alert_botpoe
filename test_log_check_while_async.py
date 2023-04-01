@@ -48,7 +48,7 @@ async def send_welcome(): # получаем от пользователя со�
             
         elif 'AFK' in last_line:
             global past_line_afk
-            file = open('D:\Games\poe\logs\Client.txt', 'r', encoding='utf-8)
+            file = open(file_path, 'r', encoding='utf-8)
             last_line_afk = file.readlines()[-2]
             file.close() 
             time.sleep(.1)
